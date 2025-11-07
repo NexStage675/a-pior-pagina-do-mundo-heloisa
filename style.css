@@ -1,0 +1,59 @@
+/* O pior CSS para um site de hamburgueria possível */
+
+/* reset pesado */
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* fundo gritante */
+  body {
+    color: cyan !important;
+    text-shadow: 1px 1px 0 black !important;
+    cursor: crosshair;
+  }
+  
+  /* título exagerado */
+  #titulo {
+    font-size: 80px !important;
+    color: #ff0 !important;
+    letter-spacing: 5px !important;
+    transform: rotate(-10deg);
+    text-decoration: underline wavy red;
+  }
+  
+  /* botão piscando */
+  .botao {
+    background: yellow !important;
+    border: 5px solid red !important;
+    padding: 20px !important;
+    font-size: 25px !important;
+    animation: pisca 0.5s infinite alternate;
+    cursor: pointer;
+  }
+  
+  /* animação mal feita */
+  @keyframes pisca {
+    from { background: yellow; color: red; }
+    to { background: red; color: yellow; }
+  }
+  
+  /* tabela ruim */
+  table {
+    border: 5px dotted blue !important;
+  }
+  
+  /* rodapé exagerado */
+  footer {
+    font-size: 24px !important;
+    text-transform: uppercase !important;
+    border-top: 5px solid #00ff00 !important;
+  }
+  
+  /* lista desalinhada */
+  ul {
+    margin-left: 100px !important;
+    font-weight: bold !important;
+  }
+  
