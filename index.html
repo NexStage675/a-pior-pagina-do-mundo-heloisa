@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>🔥ZÉ DO LANCHE - SUPER PROMOÇÃO🔥</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body style="background:linear-gradient(to right, red, yellow, lime); font-family:'Comic Sans MS';">
+
+  <!-- ALERTA irritante -->
+  <script>
+    alert("⚠️ Bem-vindo à Hamburgueria Zé do Lanche! ⚠️ Promoção por tempo indeterminado!");
+  </script>
+
+  <!-- Cabeçalho -->
+  <header style="background:purple;color:white;padding:10px;border:6px dashed yellow;">
+    <h1 id="titulo">🍔 ZÉ DO LANCHE 🍟</h1>
+    <marquee behavior="alternate" scrollamount="10">🔥 PEÇA 1 E TALVEZ GANHE OUTRO 🔥</marquee>
+  </header>
+
+  <!-- Corpo do anúncio -->
+  <table width="100%" border="1" cellpadding="15" style="border-collapse:collapse; background:#fff;">
+    <tr>
+      <td width="50%" style="vertical-align:top;">
+        <h2 style="color:red;">COMBO EXPLOSIVO 💥</h2>
+        <img id="burger" src="https://via.placeholder.com/250x200" alt="hambúrguer gigante" style="border:8px groove orange;">
+        <p>
+          <b>Ingredientes:</b> pão, carne, queijo e... mistério!<br>
+          <b>Preço:</b> R$ 99,99 (ou R$ 9,99 se pedir chorando)<br>
+        </p>
+        <button id="botao-promo" class="botao">QUERO AGORA!!!</button>
+      </td>
+
+      <td style="background:lime; color:blue;">
+        <h2>LANCHES DISPONÍVEIS</h2>
+        <ul>
+          <li>Hambúrguer Misterioso 🌀</li>
+          <li>X-Tudo (menos salada)</li>
+          <li>Combo “Deus nos acuda”</li>
+          <li>Batata Frita Congelada</li>
+        </ul>
+        <p><b>Entrega em até 12 horas!</b></p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- “Depoimentos” -->
+  <section id="depoimentos" style="background:#ffff99; padding:20px;">
+    <h2>O QUE NOSSOS CLIENTES DIZEM:</h2>
+    <p>"O lanche chegou... eventualmente." – João</p>
+    <p>"Comi e sobrevivi." – Maria</p>
+    <p>"Nunca mais peço, mas recomendo!" – Carlos</p>
+  </section>
+
+  <!-- Formulário -->
+  <form id="formulario" action="/pedido" method="GET" style="background:#ffcccc;border:10px double red;padding:20px;">
+    <h3>PEÇA O SEU AGORA!</h3>
+    <label for="nome">Nome:</label>
+    <input id="nome" name="nome" type="text" placeholder="Seu nome">
+    <br><br>
+    <label for="lanche">Lanche desejado:</label>
+    <input id="lanche" name="lanche" type="text" placeholder="Ex: X-Tudo">
+    <br><br>
+    <input type="submit" value="ENVIAR" class="botao">
+  </form>
+
+  <!-- Rodapé -->
+  <footer style="background:black;color:#0f0;padding:10px;">
+    © 2025 Zé do Lanche — Aberto até quando quisermos 🍔
+  </footer>
+</body>
+</html>
